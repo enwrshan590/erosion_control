@@ -11,6 +11,7 @@ function toggleState(event){
 
 }
 
+
   for(var i=0;i<quotes.length;i++){
     quotes[i].addEventListener('click', toggleState, false);
   }
