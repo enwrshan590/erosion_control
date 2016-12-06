@@ -5,9 +5,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cable Concrete Calculator | ESTIMATES CMS</title>
+     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
     <link rel="stylesheet" href="fonts/fonts.css">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/cms-css/foundation.css">
+    <link rel="stylesheet" href="css/cms-css/app.css">
   </head>
   <body>
 
@@ -27,29 +28,29 @@
         <nav id="mainNav">
             <h3 id="navTitle">Navigation</h3>
             <ul>
-              <li><a href="dashboard.html" class="current"><img src="img/home_icon.svg" class="navIcon"/><span class="navText">Dashboard</span></a></li>
-              <li><a href="activity.html"><img src="img/history_icon.svg" class="navIcon"/><span class="navText">Activity</span></a></li>
-              <li><a href="estimates.html"><img src="img/paper_icon.svg" class="navIcon"/><span class="navText">Estimates</span></a></li>
-              <li><a href="stats.html"><img src="img/stats_icon.svg" class="navIcon"/><span class="navText">Statistics</span></a></li>
-              <li><a href="companies.html"><img src="img/company_icon.svg" class="navIcon"/><span class="navText">Companies</span></a></li>
+              <li><a href="cms_dashboard.html" class="current"><img src="img/home_icon.svg" class="navIcon"/><span class="navText">Dashboard</span></a></li>
+              <li><a href="cms_activity.html"><img src="img/history_icon.svg" class="navIcon"/><span class="navText">Activity</span></a></li>
+              <li><a href="cms_estimates.html"><img src="img/paper_icon.svg" class="navIcon"/><span class="navText">Estimates</span></a></li>
+              <li><a href="cms_stats.html"><img src="img/stats_icon.svg" class="navIcon"/><span class="navText">Statistics</span></a></li>
+              <li><a href="cms_companies.html"><img src="img/company_icon.svg" class="navIcon"/><span class="navText">Companies</span></a></li>
             </ul>
         </nav>
       </section>
 
     <main class="clearfix">
             <h2 class="hidden">Main Content</h2>
-      <section class="row expanded" id="mainDashboard">
-        <div class="row" id="dashTab1">
-          <div class="columns small-12 medium-12 medium-centered large-11 large-centered" id="estimates">
+      <section class="row expanded" id="mainEstimates">
+        <div class="row" id="estTab1">
+          <div class="columns small-12 medium-12 medium-centered large-12 large-centered" class="estimates">
                 <h2 class="tabTitle">ESTIMATES</h2>
                 <div class="estimatesTopBar">
                   <div id="topBar" class="titleInfo">
                    <button class="button dropdown recentActivtyButton" type="button" data-toggle="example-dropdown">Recent Activity</button>
                     <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
                       <ul>
-                        <li>OPTION 1</li>
-                        <li>OPTION 2</li>
-                        <li>OPTION 3</li>
+                        <li>Recent Activity</li>
+                        <li>Latest Estimate</li>
+                        <li>Earliest Estimate</li>
                       </ul>
                     </div>
 
@@ -62,155 +63,189 @@
           </div>
         </div>
     
-   <ul class="accordion" data-accordion data-multi-expand="true">
-       <li class="accordion-item is-active" data-accordion-item>
-        <div class="quote closed">
-                  <div class="statusbox">
-                    <div class="reviewButton">
-                      <a>REVIEW</a>
-                    </div>
-                  </div>
-                   <div class="titleInfo">
-                  <div class="circle"> </div>
-                  <h4 class="title">BOB's Construction</h4>
-                  <h5 class="recentText">Roadway Water Flow</h5>
-                  <h5 class="recentText">September2, 2016</h5>
-                </div>
-                    <div class="buttons clearfix">
-                      <div class="leftButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/pencil_icon.svg">
-                          <span class="text">EDIT</span>
-                        </a>
-                      </div>
-                      <div class="rightButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/trash_icon.svg">
-                        <span class="text">DISCARD</span>
-                      </a>
-                      </div>
-                    </div>
-                </div>
-        <div class="accordion-content" data-tab-content>
-          I would start in the open state, due to using the `is-active` state class.
+        <div class="row" id="estTab2">
+          <div class="columns hide-for-small-only medium-12 medium-centered large-12 large-centered" class="estimates">
+            <div class="block">
+              <div class="blockTitle">
+                <h5>COMPANY 1</h5>
+                <h4>LONDON WATERWAY</h4>
+              </div>
+                <p>Date Edited: Nov. 14, 2016</p>
+                <p>Recommended Block: CC35</p>
+                <p>Safety Factor: 2.4</p>
+                <button>REVIEW</button>
+            </div>
+
+            <div class="block">
+              <div class="blockTitle">
+                <h5>COMPANY 1</h5>
+                <h4>LONDON WATERWAY</h4>
+              </div>
+                <p>Date Edited: Nov. 14, 2016</p>
+                <p>Recommended Block: CC35</p>
+                <p>Safety Factor: 2.4</p>
+                <button>REVIEW</button>
+            </div>
+
+            <div class="block">
+              <div class="blockTitle">
+                <h5>COMPANY 1</h5>
+                <h4>LONDON WATERWAY</h4>
+              </div>
+                <p>Date Edited: Nov. 14, 2016</p>
+                <p>Recommended Block: CC35</p>
+                <p>Safety Factor: 2.4</p>
+                <button>REVIEW</button>
+            </div>
+
+            <div class="block">
+              <div class="blockTitle">
+                <h5>COMPANY 1</h5>
+                <h4>LONDON WATERWAY</h4>
+              </div>
+                <p>Date Edited: Nov. 14, 2016</p>
+                <p>Recommended Block: CC35</p>
+                <p>Safety Factor: 2.4</p>
+                <button>REVIEW</button>
+            </div>
+
+            <div class="block">
+              <div class="blockTitle">
+                <h5>COMPANY 1</h5>
+                <h4>LONDON WATERWAY</h4>
+              </div>
+                <p>Date Edited: Nov. 14, 2016</p>
+                <p>Recommended Block: CC35</p>
+                <p>Safety Factor: 2.4</p>
+                <button>REVIEW</button>
+            </div>
+          </div>
         </div>
-      </li>
 
-       <li class="accordion-item is-active" data-accordion-item>
-        <div href="#" class="quote closed">
-                  <div class="statusbox">
-                    <div class="reviewButton">
-                      <a>REVIEW</a>
-                    </div>
-                  </div>
-                   <div class="titleInfo">
+       <div class="row" id="estTab3">
+          <div class="columns small-12 show-for-small-only" class="estimates">
+        <ul class="accordion" data-accordion>
+          <li class="accordion-item is-active" data-accordion-item>
+            <a href="#" class="accordion-title">
+                <div class="titleInfo">
                   <div class="circle"> </div>
                   <h4 class="title">BOB's Construction</h4>
                   <h5 class="recentText">Roadway Water Flow</h5>
-                  <h5 class="recentText">September2, 2016</h5>
+                  <h5 class="recentText">September 2, 2016</h5>
                 </div>
-                    <div class="buttons clearfix">
-                      <div class="leftButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/pencil_icon.svg">
-                          <span class="text">EDIT</span>
-                        </a>
-                      </div>
-                      <div class="rightButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/trash_icon.svg">
-                        <span class="text">DISCARD</span>
-                      </a>
-                      </div>
-                    </div>
-                </div>
-        <div class="accordion-content" data-tab-content>
-          I would start in the open state, due to using the `is-active` state class.
-        </div>
-      </li>
-      
-
-      <li class="accordion-item is-active" data-accordion-item>
-        <div class="quote closed">
-                  <div class="statusbox">
-                    <div class="reviewButton">
-                      <a>REVIEW</a>
-                    </div>
-                  </div>
-                   <div class="titleInfo">
+            </a>
+            
+            <div class="accordion-content" data-tab-content>
+              <p class="expandedContent">Recommended Block Size: <span class="safetyFactor">CC35</span><br> Safety Factor: <span class="safetyFactor">2.3</span></p>
+              <a class="reviewButton" href="www.google.ca">REVIEW</a>
+            </div>
+          </li>
+          
+          <li class="accordion-item is-active" data-accordion-item>
+            <a href="#" class="accordion-title">
+                <div class="titleInfo">
                   <div class="circle"> </div>
                   <h4 class="title">BOB's Construction</h4>
                   <h5 class="recentText">Roadway Water Flow</h5>
-                  <h5 class="recentText">September2, 2016</h5>
+                  <h5 class="recentText">September 2, 2016</h5>
                 </div>
-                    <div class="buttons clearfix">
-                      <div class="leftButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/pencil_icon.svg">
-                          <span class="text">EDIT</span>
-                        </a>
-                      </div>
-                      <div class="rightButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/trash_icon.svg">
-                        <span class="text">DISCARD</span>
-                      </a>
-                      </div>
-                    </div>
-                </div>
-        <div class="accordion-content" data-tab-content>
-          I would start in the open state, due to using the `is-active` state class.
-        </div>
-      </li>
-    </ul> 
+            </a>
+            
+            <div class="accordion-content" data-tab-content>
+              <p class="expandedContent">Recommended Block Size: <span class="safetyFactor">CC35</span><br> Safety Factor: <span class="safetyFactor">2.3</span></p>
+              <a class="reviewButton" href="www.google.ca">REVIEW</a>
+            </div>
+          </li>
 
-
-    <!-- <div class="quote closed">
-                  <div class="statusbox">
-                    <div class="reviewButton">
-                      <a>REVIEW</a>
-                    </div>
-                  </div>
-                   <div class="titleInfo">
+          <li class="accordion-item is-active" data-accordion-item>
+            <a href="#" class="accordion-title">
+                <div class="titleInfo">
                   <div class="circle"> </div>
                   <h4 class="title">BOB's Construction</h4>
                   <h5 class="recentText">Roadway Water Flow</h5>
-                  <h5 class="recentText">September2, 2016</h5>
+                  <h5 class="recentText">September 2, 2016</h5>
                 </div>
-                    <div class="buttons clearfix">
-                      <div class="leftButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/pencil_icon.svg">
-                          <span class="text">EDIT</span>
-                        </a>
-                      </div>
-                      <div class="rightButton">
-                        <a href="#" class="clearfix">
-                        <img class="centered" src="img/trash_icon.svg">
-                        <span class="text">DISCARD</span>
-                      </a>
-                      </div>
-                    </div>
-                </div> -->
+            </a>
+            
+            <div class="accordion-content" data-tab-content>
+              <p class="expandedContent">Recommended Block Size: <span class="safetyFactor">CC35</span><br> Safety Factor: <span class="safetyFactor">2.3</span></p>
+              <a class="reviewButton" href="www.google.ca">REVIEW</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </div>
+
+       <div class="row" id="estTab3">
+          <div class="columns hide-for-small-only" class="estimates">
+          <table>
+            <thead>
+              <tr>
+                <th width="50">NEW</th>
+                <th width="200">Company</th>
+                <th>Project</th>
+                <th width="150">Date Edited</th>
+                <th width="150">Rec. Block Size</th>
+                <th width="150">Safety Factor</th>
+                <th width="150">Review</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div class="circle"> </div></td>
+                <td>BOB'S CONSTRUCTION</td>
+                <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td><button>REVIEW</button></td>
+              </tr>
+              <tr>
+                <td><div class="circle"> </div></td>
+                <td>Content Goes Here</td>
+                <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td><button>REVIEW</button></td>
+              </tr>
+              <tr>
+                <td><div class="circle"> </div></td>
+                <td>Content Goes Here</td>
+                <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td>Content Goes Here</td>
+                <td><button>REVIEW</button></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+    </div>
+  </div>
+
+
+
     </main>
 </section>
     <footer id="mobileMenu">
       <nav id="secondaryNav">
           <h3 class="hidden">Mobile Navigation</h3>
           <ul>
-              <li><a href="dashboard.html" class="current"><img src="img/home_icon.svg" class="navIcon"/><span class="navText">Dashboard</span></a></li>
-              <li><a href="activity.html"><img src="img/history_icon.svg" class="navIcon"/><span class="navText">Activity</span></a></li>
-              <li><a href="estimates.html"><img src="img/paper_icon.svg" class="navIcon"/><span class="navText">Estimates</span></a></li>
-              <li><a href="stats.html"><img src="img/stats_icon.svg" class="navIcon"/><span class="navText">Statistics</span></a></li>
-              <li><a href="companies.html"><img src="img/company_icon.svg" class="navIcon"/><span class="navText">Companies</span></a></li>
+              <li><a href="cms_dashboard.html" class="current"><img src="img/home_icon.svg" class="navIcon"/><span class="navText">Dashboard</span></a></li>
+              <li><a href="cms_activity.html"><img src="img/history_icon.svg" class="navIcon"/><span class="navText">Activity</span></a></li>
+              <li><a href="cms_estimates.html"><img src="img/paper_icon.svg" class="navIcon"/><span class="navText">Estimates</span></a></li>
+              <li><a href="cms_stats.html"><img src="img/stats_icon.svg" class="navIcon"/><span class="navText">Statistics</span></a></li>
+              <li><a href="cms_companies.html"><img src="img/company_icon.svg" class="navIcon"/><span class="navText">Companies</span></a></li>
             </ul>
       </nav>
     </footer>
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/cms-js/jquery.js"></script>
+    <script src="js/vendor/cms-js/what-input.js"></script>
+    <script src="js/vendor/cms-js/foundation.js"></script>
+    <script src="js/vendor/cms-js/foundation.min.js"></script>
     <script src="js\vendor\greensock\TweenLite.min.js"></script>
     <script src="js\vendor\greensock\CSSPlugin.min.js"></script>
     <script src="js/app.js"></script>
